@@ -1,0 +1,14 @@
+body{
+  @extend %roboto-300;
+  font-size: 24px;
+  line-height: 34px;
+}
+body.lock{
+  overflow: hidden;
+}
+
+.container{
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
